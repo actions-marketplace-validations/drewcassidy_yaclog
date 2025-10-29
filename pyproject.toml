@@ -44,7 +44,7 @@ docs = [
     "sphinx-click >= 2.7",
     "sphinx-rtd-theme",
     "myst-parser >= 0.14",
-    "sphinx-gha",
+    "sphinx-gha >= 1.0.0",
     "sphinx-copybutton",
 ]
 
@@ -68,3 +68,7 @@ include = ["yaclog*"]
 
 [tool.uv]
 cache-keys = [{ file = "pyproject.toml" }, { git = { commit = true } }]
+
+[[tool.uv.index]]
+name = "offworldcolonies-drewcassidy"
+url = "https://git.offworldcolonies.nexus/api/packages/drewcassidy/pypi/simple/"

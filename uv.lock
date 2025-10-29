@@ -670,8 +670,8 @@ wheels = [
 
 [[package]]
 name = "sphinx-gha"
-version = "0.1.1"
-source = { registry = "https://pypi.org/simple" }
+version = "1.0.0"
+source = { registry = "https://git.offworldcolonies.nexus/api/packages/drewcassidy/pypi/simple/" }
 dependencies = [
     { name = "gitpython" },
     { name = "myst-parser" },
@@ -679,9 +679,9 @@ dependencies = [
     { name = "sphinx", version = "8.1.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "sphinx", version = "8.2.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/03/83/a25caa34c400e0903e2bcc42caf73528cfbf773f4a2bff9d5ab1f732f224/sphinx_gha-0.1.1.tar.gz", hash = "sha256:f92ec68ecba5379421ceae96d80dc3b4157847c202010ab99e1fc17d602a2a5a", size = 15933, upload-time = "2024-10-21T05:34:11.481Z" }
+sdist = { url = "https://git.offworldcolonies.nexus/api/packages/drewcassidy/pypi/files/sphinx-gha/1.0.0/sphinx_gha-1.0.0.tar.gz", hash = "sha256:224c945156f45fe92c36c8aae2df2dd36205e4c6d64173bc33303b89cfa16732" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/47/40/1272cb9c5c28d0963c6f895bed274860ed45a44c7075242aa45fa457e3a6/sphinx_gha-0.1.1-py3-none-any.whl", hash = "sha256:b614a9be7a6c9b4632054f6f093b37f7eefd0b19b39ecddbd568dabf4e42aade", size = 11036, upload-time = "2024-10-21T05:34:09.951Z" },
+    { url = "https://git.offworldcolonies.nexus/api/packages/drewcassidy/pypi/files/sphinx-gha/1.0.0/sphinx_gha-1.0.0-py3-none-any.whl", hash = "sha256:01ca14c246b2ad000c5b634ebf58ce1bef694108b7dc79d15955b6c87be8061d" },
 ]
 
 [[package]]
@@ -876,7 +876,7 @@ requires-dist = [
     { name = "sphinx", marker = "extra == 'docs'", specifier = ">=8.1" },
     { name = "sphinx-click", marker = "extra == 'docs'", specifier = ">=2.7" },
     { name = "sphinx-copybutton", marker = "extra == 'docs'" },
-    { name = "sphinx-gha", marker = "extra == 'docs'" },
+    { name = "sphinx-gha", marker = "extra == 'docs'", specifier = ">=1.0.0" },
     { name = "sphinx-rtd-theme", marker = "extra == 'docs'" },
     { name = "tomlkit", specifier = ">=0.11" },
 ]
