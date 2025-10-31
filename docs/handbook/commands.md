@@ -1,7 +1,7 @@
 # Command Reference
 
 ```{eval-rst}
-.. click:: yaclog.cli.__main__:cli
+.. click:: yaclog.cli:main
    :prog: yaclog
    :nested: full
 ```

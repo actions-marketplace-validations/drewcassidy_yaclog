@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file
 
+## Unreleased
+
+### Fixed
+
+- Fixed broken command docs
+
+
 ## Version 1.6.2 - 2025-10-22
 
 ### Fixed
